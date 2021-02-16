@@ -1,0 +1,27 @@
+{
+  "name": "react-by-me",
+  "version": "1.0.0",
+  "description": "This repo is a lighter version of React written by me from scratch",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albertobar94/react-by-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Albertobar94/react-by-me/issues"
+  },
+  "homepage": "https://github.com/Albertobar94/react-by-me#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.13",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.12.13"
+  }
+}
