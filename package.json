@@ -4,7 +4,9 @@
   "description": "This repo is a lighter version of React written by me from scratch",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib"
+    "transform": "tsc",
+    "compile": "babel src/index.jsx -d lib",
+    "build": "npm-run-all transform compile"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,15 @@
     "@babel/core": "^7.12.16",
     "@babel/plugin-proposal-object-rest-spread": "^7.12.13",
     "@babel/preset-env": "^7.12.16",
-    "@babel/preset-react": "^7.12.13"
+    "@babel/preset-react": "^7.12.13",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.28",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/requestidlecallback": "^0.3.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "typescript": "^4.1.5"
   }
 }

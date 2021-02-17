@@ -3,3 +3,9 @@ body {
   min-width: 100vw;
   font-size: 24px;
 }
+
+.colores {
+  background: darkblue;
+  color: white;
+  text-align: center;
+}
